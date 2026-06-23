@@ -298,6 +298,7 @@ function Server(serverConfig = {}) {
     startServer,
     addHandler,
     executeRequest,
+    app,
   };
 }
 module.exports = Server;

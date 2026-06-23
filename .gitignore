@@ -16,6 +16,15 @@ endpoint-data
 .env
 *.env
 *.logs
+server.log
+
+# DEPLOY
+deploy/api.zip
+deploy/terraform/terraform.tfvars
+
+# TERRAFORM
+*.tfstate
+*.tfstate.*
 
 # OS
-.DS_Storeserver.log
+.DS_Store
